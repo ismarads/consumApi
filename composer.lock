@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "773d9f09c174a6a7cf78f724959e38c8",
+    "packages": [
+        {
+            "name": "ismar/consulta-cep",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ismarads/consultaCep.git",
+                "reference": "590b2b2fac09e6cfbc20d53867ffd22dc4be84bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ismarads/consultaCep/zipball/590b2b2fac09e6cfbc20d53867ffd22dc4be84bf",
+                "reference": "590b2b2fac09e6cfbc20d53867ffd22dc4be84bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "ismar\\consultaCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ismarads",
+                    "email": "ismarpp.santos@gmail.com"
+                }
+            ],
+            "description": "busca de CEPs",
+            "time": "2020-05-27T01:11:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

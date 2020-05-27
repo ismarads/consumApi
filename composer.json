@@ -1,0 +1,15 @@
+{
+    "name": "ismar/consum-api",
+    "description": "consumindo api consultaCep",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ismarads",
+            "email": "ismarpp.santos@gmail.com"
+        }
+    ],
+    "require": {
+        "ismar/consulta-cep": "^1.0"
+    }
+}
